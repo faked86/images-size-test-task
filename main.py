@@ -39,7 +39,7 @@ if __name__ == "__main__":
             with postgres_conn.cursor() as cur:
                 cur.execute(
                     f"CREATE TABLE IF NOT EXISTS public.{TABLE_NAME} "
-                    "(added_at timestampz, size_bytes integer);"
+                    "(added_at timestamptz, size_bytes integer);"
                 )
 
             # Creating queue to store images
