@@ -16,8 +16,8 @@ cd simple-social-network
 ```
 
 ## Usage
-
-- Run `docker-compose up` in terminal to start app in Docker.
+1. Put images to `images` directory
+2. Run `docker-compose up` in terminal to start app in Docker.
 
 ## Style guide
 
